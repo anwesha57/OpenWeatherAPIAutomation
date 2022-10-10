@@ -1,0 +1,22 @@
+Approaches:
+I have designed Rest Assured with Java framework for API testing
+JUnit is used for validation and assertion.
+Extent Report(Spark) is configured as reporting tool
+
+Framework Structure:
+
+1.Step definition class: all the steps mentions in feature files are defined in this class
+2. Utils class: Utility class defined with reusable request and response specifications
+3.global.peoperties file: To define global properties and drive all global variables
+
+
+Improvement To The framework:
+1.Building POJO classes for serializing and deserializing json payload
+2.Defining Enum class with constants to hold all resources details
+3. Implement logging functionality into framework
+4.Excel integration
+5. Adding methods to read complex Json
+
+Improvement to tests:
+1. Adding more tests with validation and assertion and implement required tagging for all test
+2.Implement pre and post conditions with hooks

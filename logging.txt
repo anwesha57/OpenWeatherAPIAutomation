@@ -1,0 +1,29 @@
+Request method:	GET
+Request URI:	https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=7ff603a9af53be5e9303c470f762a59
+Proxy:			<none>
+Request params:	<none>
+Query params:	lat=44.34
+				lon=10.99
+				appid=7ff603a9af53be5e9303c470f762a59
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: openresty
+Date: Mon, 10 Oct 2022 05:00:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 108
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=44.34&lon=10.99
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{
+    "cod": 401,
+    "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+}
